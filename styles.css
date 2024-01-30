@@ -1,0 +1,73 @@
+body {
+    background: url(okay.JPG);
+    width: 100%;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+.signup {
+    width: 360px;
+    height: 800px;
+    margin: auto;
+    background: white;
+    border-radius: 3px
+}
+
+.signin {
+   width: 360px;
+    height: 300px;
+    margin: auto;
+    background: white;
+    border-radius: 3px;
+}
+
+h1{
+     text-align: centre;
+}
+
+h4{
+      text-align: centre;
+      padding-top: 15px;
+}
+
+form {
+    width: 300px;
+margin-left: 20px;
+}
+
+form label {
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+form input {
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+}
+
+input[type="Submit"]{
+     width: 320px;
+     height: 35px;
+     margin-top: 20px;
+     border: none;
+     background-color: gold;
+     color: white;
+     font-size: 18px;
+     cursor: pointer;
+}
+
+input[type="Submit"]:hover{
+      color: white;
+      background: yellow;
+}
+
+p{
+    text-align: centre;
+     padding-top: 20px;
+     font-size: 15px;
+}
